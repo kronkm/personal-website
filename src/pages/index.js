@@ -1,7 +1,6 @@
 import React from 'react'
 
 import Layout from '../components/layout'
-import headshot from '../images/MK2_circle.jpg';
 import '../styles.css'
 
 const IndexPage = () => (
