@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Marcellus|Questrial');
+@import url('https://fonts.googleapis.com/css?family=Marcellus|Roboto');
 
 h1 {
     font-family: 'Marcellus', serif;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 30px;
     color: white;
 }
 
@@ -13,22 +13,19 @@ h2 {
 
 .content-container {
     color: white;
-    font-family: 'Questrial';
+    font-family: 'Roboto';
     font-size: 24px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+    position: relative;
     margin: 12px;
     padding: 12px;
 }
 
 @media screen and (min-width: 768px) {
     h1 {
-        font-size: 64px;
+        font-size: 42px;
     }
     h2 {
-        font-size: 36px;
+        font-size: 24px;
     }
     .content-container {
         margin: 48px;
@@ -41,7 +38,7 @@ h2 {
 }
 .content-section > p,
 .content-section > a {
-    text-align: center;
+    
     margin-bottom: 0;
 }
 
@@ -52,4 +49,14 @@ h2 {
 
 .content-section > a:visited {
     color: #999999;
+}
+
+.translucent-overlay {
+    position: absolute;
+    background: black;
+    width: 100%;
+    opacity: .6;
+    top: 0;
+    bottom: 0;
+    left: 0;
 }
