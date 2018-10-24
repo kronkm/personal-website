@@ -8,15 +8,9 @@ const IndexPage = () => (
     <div className="content-container">
       <div className="translucent-overlay"></div>
       <div style={{position: 'relative'}}>
-        {/*<div style={{textAlign: 'center'}}>
-          <h1 style={{
-          }}>Mike Kronk</h1>
-          <p>🎮😎👨🏼‍💻🐾🍻</p>
-          <h2>Front-End Developer</h2>
-        </div>*/}
         <div style={{textAlign: 'center'}}>
-          <h1>Hey! I'm Mike Kronk.</h1>
-          <h2>I'm a Front-End Engineer in Austin, TX.</h2>
+          <h1 style={{marginBottom: '24px'}}>Hey! I'm Mike Kronk.</h1>
+          <h2 className="main-subheading">I'm a Front-End Engineer in Austin, TX.</h2>
           <p>🎮😎👨🏼‍💻🐾🍻</p>
         </div>
         <section className='content-section'>

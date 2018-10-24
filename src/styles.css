@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Marcellus|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Marcellus|Alegreya+Sans');
 
 h1 {
     font-family: 'Marcellus', serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 36px;
     color: white;
 }
 
@@ -13,19 +13,26 @@ h2 {
 
 .content-container {
     color: white;
-    font-family: 'Roboto';
+    font-family: 'Alegreya Sans';
     font-size: 24px;
     position: relative;
-    margin: 12px;
-    padding: 12px;
+    margin: 36px;
+    padding: 24px 16px;
+}
+
+.main-subheading {
+    font-family: 'Alegreya Sans';
+    font-size: 24px;
+    margin-bottom: 32px;
 }
 
 @media screen and (min-width: 768px) {
     h1 {
-        font-size: 42px;
+        font-size: 46px;
     }
-    h2 {
+    main-subheading {
         font-size: 24px;
+        margin-bottom: 32px;
     }
     .content-container {
         margin: 48px;
@@ -34,7 +41,7 @@ h2 {
 }
 
 .content-section {
-    margin-bottom: 24px;
+    margin-bottom: 36px;
 }
 .content-section > p,
 .content-section > a {
