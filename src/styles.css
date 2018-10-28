@@ -1,69 +1,62 @@
-@import url('https://fonts.googleapis.com/css?family=Marcellus|Alegreya+Sans');
-
-h1 {
-    font-family: 'Marcellus', serif;
-    font-weight: bold;
-    font-size: 36px;
-    color: white;
-}
-
-h2 {
-    font-size: 22px;
-}
+@import url('https://fonts.googleapis.com/css?family=Marcellus|Abel');
 
 .content-container {
     color: white;
-    font-family: 'Alegreya Sans';
+    font-family: 'Abel', sans-serif;
     font-size: 24px;
-    position: relative;
-    margin: 36px;
+    margin: 36px 26px;
+    max-width: 550px;
     padding: 24px 16px;
+    position: relative;
 }
 
-.main-subheading {
-    font-family: 'Alegreya Sans';
-    font-size: 24px;
-    margin-bottom: 32px;
+.content-overlay {
+    background: black;
+    bottom: 0;
+    left: 0;
+    opacity: .6;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 
-@media screen and (min-width: 768px) {
-    h1 {
-        font-size: 46px;
-    }
-    main-subheading {
-        font-size: 24px;
-        margin-bottom: 32px;
-    }
-    .content-container {
-        margin: 48px;
-        padding: 48px;
-    }
+.content-container-inner {
+    position: relative;
 }
 
 .content-section {
     margin-bottom: 36px;
 }
-.content-section > p,
-.content-section > a {
-    
-    margin-bottom: 0;
+
+.heading-container,
+.contact-me-section {
+    text-align: center;
 }
 
-.content-section > a {
+h1 {
     color: white;
-    display: block;
+    font-family: 'Marcellus', serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 24px;
 }
 
-.content-section > a:visited {
-    color: #999999;
+h2 {
+    font-family: 'Abel', sans-serif;
+    font-size: 24px;
+    margin-bottom: 32px;
 }
 
-.translucent-overlay {
-    position: absolute;
-    background: black;
-    width: 100%;
-    opacity: .6;
-    top: 0;
-    bottom: 0;
-    left: 0;
+@media screen and (min-width: 768px) {
+    .content-container {
+        margin: 48px auto;
+        padding: 48px;
+    }
+    h1 {
+        font-size: 46px;
+    }
+    h2 {
+        font-size: 24px;
+        margin-bottom: 32px;
+    }
 }

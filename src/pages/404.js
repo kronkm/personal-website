@@ -5,8 +5,8 @@ import { Link } from 'gatsby'
 const NotFoundPage = () => (
   <Layout>
     <h1>Whoops!</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-    <Link to="/">Here's a link back to the index page though!</Link>
+    <p>You must've gotten lost out in the wilderness here.</p>
+    <Link to="/">Here's a link to find your way back to camp!</Link>
   </Layout>
 )
 
