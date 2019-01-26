@@ -36,7 +36,7 @@ const IndexPage = () => (
         </section>
         <section className='contact-me-section'>
           <p>
-            Feel free to <a class='contact-me__link' style={{color: '#fff'}} href='mike@mikekronk.com'>say hi!</a>
+            Feel free to <a class='contact-me__link' style={{color: '#fff'}} href='cordialcoder@gmail.com'>say hi!</a>
           </p>
         </section>
       </div>
