@@ -10,7 +10,7 @@ const About = () => (
                     I'm currently the Lead Front End Engineer at <a href="https://www.realmassive.com" target="_blank">RealMassive</a>.
                     Previously, I led the Front End team
                     behind <a href='https://www.netapp.com/us/index.aspx' target='_blank'>NetApp.com</a> and before that I wrote code 
-                    for VNXe simulators at <a href='https://www.dellemc.com/en-us/index.htm'>EMC</a>.
+                    for VNXe simulators at <a href='https://www.dellemc.com/en-us/index.htm' target="_blank">EMC</a>.
                 </p>
                 <hr className='rule'></hr>
                 <p>
