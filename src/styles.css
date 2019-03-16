@@ -1,42 +1,231 @@
-@import url('https://fonts.googleapis.com/css?family=Marcellus|Abel');
+@import url('https://fonts.googleapis.com/css?family=Marcellus|Abel|Open+Sans|PT+Sans');
 
-.content-container {
-    color: white;
-    font-family: 'Abel', sans-serif;
-    font-size: 24px;
-    margin: 36px 26px;
-    max-width: 550px;
-    padding: 24px 16px;
-    position: relative;
+.margin-bottom-sm {
+    margin-bottom: 12px;
 }
 
-.content-overlay {
-    background: black;
-    bottom: 0;
-    left: 0;
-    opacity: .6;
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
-
-.content-container-inner {
-    position: relative;
-}
-
-.content-section {
+.margin-bottom-md {
     margin-bottom: 36px;
 }
 
-.heading-container,
-.contact-me-section {
+.margin-bottom-lg {
+    margin-bottom: 48px;
+}
+
+.margin-bottom-xl {
+    margin-bottom: 56px;
+}
+
+.section-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 48px;
+    max-width: 550px;
+    
+}
+
+.section-heading {
+    margin-bottom: 24px;
+}
+
+.sweet-portrait {
+    max-width: 300px;
+}
+
+.section-subheading {
     text-align: center;
 }
 
+@media screen and (min-width: 768px) {
+    .sweet-portrait {
+        max-width: 350px;
+    }
+    .section-subheading {
+        margin: 0 auto;
+        min-width: 600px;
+    }
+}
+
+.rule {
+	background-color: #fff;
+    border-top: 2px dotted rgb(63, 124, 124);
+    width: 100%;
+}
+
+.post-list {
+    text-align: center;
+    list-style: none;
+}
+
+.post-list--item {
+    margin-bottom: 24px;
+    text-decoration: none;
+}
+
+.post-list--item > a {
+    backface-visibility: hidden;
+    -webkit-font-smoothing: antialiased;
+    color: #808AF8;
+    display: block;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+    text-decoration: none;
+    transition: .8s;
+}
+
+.post-list--item > a:hover {
+    transform: perspective(1px) translateZ(0) scale(1.009);
+}
+
+.emoji:first-child {
+ margin-left: 6px;
+}
+
+header, footer {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 12px;
+    margin-bottom: 12px;
+}
+
+header > a {
+    font-size: 24px;
+    color: #3f7c7c;
+    text-decoration: none;
+    position: relative;
+}
+
+header > a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #3f7c7c;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+header > a:hover:before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+footer {
+    min-height: 100px;
+    background: #f0fdfd;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+}
+
+.footer-content {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+.footer-icons {
+    display: block;
+    margin-top: 12px;
+    text-align: center;
+}
+
+.footer-content > .footer-item {
+    margin: 0 2px;
+}
+
+.about-container a,
+.footer-content a {
+    color: rgb(46, 115, 206);
+    text-decoration: none;
+    transition: .5s;
+}
+
+.about-container a:hover,
+.footer-content a:hover {
+    color: #3f7c7c;
+}
+
+
+
+@media screen and (min-width: 769px) {
+    header {
+        margin: 12px auto 0 auto;
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
+    header > a {
+        margin: 16px 12px 0 12px;
+        padding-bottom: 10px;
+    }
+    .post-list {
+        margin-top: 24px;
+    }
+    .section-box {
+        margin: 0 auto;
+    }
+    .section-heading {
+        margin: 8px auto 16px auto;
+    }
+    .about-container {
+        margin-top: 12px;
+    }
+    footer {
+        position: fixed;
+        bottom: 0;
+        min-height: 200px;
+        background: #f0fdfd;
+        margin-top: 24px;
+    }
+    .footer-content {
+        margin-top: 0;
+    }
+    .footer-icons {
+        display: inline;
+    }
+}
+
+.footer-content {
+    position: absolute;
+}
+
+.footer-link {
+    padding: 6px;
+}
+
+.link-github:after {
+    content: url('./images/github-i.svg');
+}
+.link-github:hover {
+    color: blue;
+}
+
+.link-li:after {
+    content: url('./images/linkedin-i.svg');
+}
+
+.link-email:after {
+    content: url('./images/email-i.svg');
+}
+
+
 h1 {
-    color: white;
     font-family: 'Marcellus', serif;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: bold;
     margin-bottom: 24px;
 }
@@ -45,6 +234,10 @@ h2 {
     font-family: 'Abel', sans-serif;
     font-size: 24px;
     margin-bottom: 32px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
 }
 
 @media screen and (min-width: 768px) {

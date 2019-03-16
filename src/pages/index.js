@@ -1,47 +1,25 @@
 import React from 'react'
 
+// import Header from somewhere
+// import Footer from somewhere
+// import base styles from somewhere
+
 import Layout from '../components/layout'
-import '../styles.css'
+// import '../styles.css'
+import mk from '../images/mk.jpg';
 
 const IndexPage = () => (
-  <Layout>
-    <div className='content-container'>
-      <div className='content-overlay'></div>
-      <div className='content-container-inner'>
-        <div className='heading-container'>
-          <h1>Hey! I'm Mike Kronk.</h1>
-          <h2>I'm a Front-End Engineer in Austin, TX.</h2>
-          <p>
-            <span role='img' aria-label='controller'>🎮</span>
-            <span role='img' aria-label='sunglasses'>😎</span>
-            <span role='img' aria-label='computer guy'>👨🏼‍💻</span>
-            <span role='img' aria-label='pawprints'>🐾</span>
-            <span role='img' aria-label='beers'>🍻</span>
-          </p>
-        </div>
-        <section className='content-section'>
-          <p>
-            Working on the Front-End is where it's at! I truly enjoy working at the intersection of people and technology that building user-friendly, data-rich interfaces requires.
-          </p>
+    <Layout>
+        <section className='section-box'>
+            <h1 className='section-heading'>Hi, I'm Mike Kronk!</h1>
+            <img className='sweet-portrait' src={mk} alt="Mike Kronk" />
+            <h2 className='section-subheading'>I'm a Front-End Engineer Lead based in Austin, TX
+                <span className='emoji' role='img' aria-label='cactus'>🌵</span>
+                <span className='emoji' role='img' aria-label='sun'>☀️</span>
+                <span className='emoji' role='img' aria-label='taco'>🌮</span>
+            </h2>
         </section>
-        <section className='content-section'>
-          <p>
-            My technical skillset has a solid foundation behind it - HTML5, CSS3, and ES6+. Beyond this, my current favorite tools for building user interfaces are React, Sass, and Next.js.
-          </p>
-        </section>
-        <section className='content-section'>
-          <p>
-            Besides coding, I believe that soft skills matter just as much as technical ability. Software development is a team sport, after all. To this end, I excel in organizing information from multiple sources and communicating with both technical and non-technical audiences.
-          </p>
-        </section>
-        <section className='contact-me-section'>
-          <p>
-            Feel free to <a class='contact-me__link' style={{color: '#fff'}} href='mailto:cordialcoder@gmail.com'>say hi!</a>
-          </p>
-        </section>
-      </div>
-    </div>
-  </Layout>
+    </Layout>
 )
 
 export default IndexPage

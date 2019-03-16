@@ -4,8 +4,10 @@ html {
   -webkit-text-size-adjust: 100%;
 }
 body {
-  background: url('../images/roan2-min.jpg') no-repeat center fixed;
-  background-size: cover;
+  /*background: url('../images/roan2-min.jpg') no-repeat center fixed;
+  background-size: cover;*/
+  background: #f7f7f7;
+  margin: 0;
 }
 article,
 aside,
