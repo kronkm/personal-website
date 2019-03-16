@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby';
-import Header from './Header';
-import Footer from './Footer';
+import Header from './header';
+import Footer from './footer';
 
 import './layout.css';
 import '../styles.css';
