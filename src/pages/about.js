@@ -28,7 +28,7 @@ const About = () => (
                     first powerlifting meet in April 2019. When it's time for me to fill
                     up after a workout, you'll find me gushing over the food scene here
                     in Austin. I also frequent local meetups and discussion groups and
-                    enjoy a healthy does of Nintendo games when I need some downtime.
+                    enjoy a healthy dose of Nintendo games when I need some downtime.
                 </p>
             </div>
         </section>
