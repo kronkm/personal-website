@@ -41,10 +41,6 @@
     text-align: center;
 }
 
-.emoji:first-of-type {
-    margin-left: 6px;
-}
-
 @media screen and (min-width: 768px) {
     .sweet-portrait {
         max-width: 350px;
@@ -161,6 +157,10 @@ footer {
     color: #3f7c7c;
 }
 
+.emoji-container {
+    margin: 5px auto;
+    text-align: center;
+}
 
 /* Tablet styles */
 @media screen and (min-width: 769px) {
@@ -188,6 +188,12 @@ footer {
     .section-heading {
         margin: 8px auto 16px auto;
     }
+    .emoji:first-of-type {
+        margin-left: 6px;
+    }
+    .emoji-container {
+        display: inline;
+    }    
     .about-container {
         margin-top: 12px;
     }
