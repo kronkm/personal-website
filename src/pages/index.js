@@ -11,13 +11,14 @@ import mk from '../images/mk.jpg';
 const IndexPage = () => (
     <Layout>
         <section className='section-box'>
-            <h1 className='section-heading'>Hi, I'm Mike Kronk!</h1>
+            <h1 className='section-heading'>Hi, I'm Mike Kronk.</h1>
             <img className='sweet-portrait' src={mk} alt="Mike Kronk" />
-            <h2 className='section-subheading'>I'm a Front-End Engineer Lead based in Austin, TX
+            <div className='section-subheading-container'>
+                <h2 className='section-subheading'>I'm a Front-End Engineer Lead based in Austin, TX</h2>
                 <span className='emoji' role='img' aria-label='cactus'>🌵</span>
                 <span className='emoji' role='img' aria-label='sun'>☀️</span>
                 <span className='emoji' role='img' aria-label='taco'>🌮</span>
-            </h2>
+            </div>
         </section>
     </Layout>
 )
