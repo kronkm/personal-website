@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Marcellus|Abel|Open+Sans|PT+Sans');
+@import url("https://fonts.googleapis.com/css?family=Marcellus|Abel|Open+Sans|PT+Sans");
 
 .margin-bottom-sm {
     margin-bottom: 12px;
@@ -72,7 +72,7 @@
     -webkit-font-smoothing: antialiased;
     color: #808AF8;
     display: block;
-    font-family: 'PT Sans', sans-serif;
+    font-family: "PT Sans", sans-serif;
     font-size: 24px;
     text-decoration: none;
     transition: .8s;
@@ -136,8 +136,7 @@ footer {
 }
 
 .footer-icons {
-    display: block;
-    margin-top: 12px;
+    margin-top: 8px;
     text-align: center;
 }
 
@@ -207,9 +206,6 @@ footer {
     .footer-content {
         margin-top: 0;
     }
-    .footer-icons {
-        display: inline;
-    }
 }
 
 .footer-content {
@@ -217,40 +213,50 @@ footer {
 }
 
 .footer-link {
+    position: relative;
     padding: 6px;
 }
 
 .link-github:after {
-    content: url('./images/github-i.svg');
+    position: relative;
+    top: 4px;
+    left: 4px;
+    content: url("./images/github-i.svg");
 }
 .link-github:hover {
     color: blue;
 }
 
 .link-li:after {
-    content: url('./images/linkedin-i.svg');
+    position: relative;
+    top: 4px;
+    left: 4px;
+    content: url("./images/linkedin-i.svg");
 }
 
 .link-email:after {
-    content: url('./images/email-i.svg');
+    position: relative;
+    top: 4px;
+    left: 4px;
+    content: url("./images/email-i.svg");
 }
 
 
 h1 {
-    font-family: 'Marcellus', serif;
+    font-family: "Marcellus", serif;
     font-size: 26px;
     font-weight: bold;
     margin-bottom: 24px;
 }
 
 h2 {
-    font-family: 'Abel', sans-serif;
+    font-family: "Abel", sans-serif;
     font-size: 24px;
     margin-bottom: 32px;
 }
 
 p {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 @media screen and (min-width: 768px) {

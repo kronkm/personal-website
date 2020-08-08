@@ -1,12 +1,12 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from 'gatsby';
-import Header from './header';
-import Footer from './footer';
+import React from "react"
+import PropTypes from "prop-types"
+import Helmet from "react-helmet"
+import { StaticQuery, graphql } from "gatsby";
+import Header from "./header";
+import Footer from "./footer";
 
-import './layout.css';
-import '../styles.css';
+import "./layout.css";
+import "../styles.css";
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -24,12 +24,12 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Front-End Engineer Lead with a focus on React, CSS, architecture, team dynamics, and both technical and non-technical communication.' }
+            { name: "description", content: "Front-End Engineer Lead with a focus on React, CSS, architecture, team dynamics, and both technical and non-technical communication." }
           ]}
         >
           <html lang="en" />
         </Helmet>
-        <div className='page-container'>
+        <div className="page-container">
           <Header />
           {children}
           <Footer />
