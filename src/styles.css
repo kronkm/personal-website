@@ -34,16 +34,19 @@
 
 .section-subheading-container {
     margin-bottom: 12px;
+    text-align: center;
 }
 
 .section-subheading {
     display: inline;
-    text-align: center;
 }
 
 @media screen and (min-width: 768px) {
     .sweet-portrait {
         max-width: 350px;
+    }
+    .section-subheading-container {
+        text-align: center;
     }
     .section-subheading {
         margin: 0 auto;
@@ -60,6 +63,7 @@
 .post-list {
     text-align: center;
     list-style: none;
+    margin-bottom: 215px;
 }
 
 .post-list--item {
@@ -93,7 +97,7 @@ header {
     width: 100%;
     justify-content: space-between;
     padding: 36px 40px 14px 40px;
-    margin-bottom: 12px;
+    margin-bottom: 45px;
 }
 
 header > a {
@@ -123,10 +127,9 @@ header > a:hover:before {
 
 footer {
     min-height: 100px;
-    background: #f0fdfd;
+    background-color: #3f7c7c;
     width: 100%;
-    margin: 0 auto;
-
+    margin: 100px auto 0 auto;
 }
 
 .footer-content {
@@ -151,9 +154,17 @@ footer {
     transition: .5s;
 }
 
+.footer-content a {
+    color: #f7f7f7;
+}
+
 .about-container a:hover,
 .footer-content a:hover {
     color: #3f7c7c;
+}
+
+.footer-content a:hover {
+    color: #D5ECF9;
 }
 
 .emoji-container {
@@ -168,7 +179,7 @@ footer {
         height: auto;
     }
     header {
-        margin: 12px auto 0 auto;
+        margin: 12px auto 45px auto;
         display: block;
         text-align: center;
         width: 100%;
@@ -197,11 +208,8 @@ footer {
         margin-top: 12px;
     }
     footer {
-        position: fixed;
         bottom: 0;
         min-height: 200px;
-        background: #f0fdfd;
-        margin-top: 24px;
     }
     .footer-content {
         margin-top: 0;
@@ -214,7 +222,7 @@ footer {
 
 .footer-link {
     position: relative;
-    padding: 6px;
+    padding: 12px;
 }
 
 .link-github:after {
