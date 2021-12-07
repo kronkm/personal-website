@@ -2,14 +2,18 @@ backend:
   name: github
   repo: kronkm/personal-website
 
-media_folder: content/uploads
-public_folder: ../uploads
+media_folder: "content/uploads"
+public_folder: "/uploads"
 
 collections:
   - name: 'blog'
     label: 'Blog'
     folder: 'content/posts'
     create: true
+    slug: 'index'
+    media_folder: ''
+    public_folder: ''
+    path: '{{title}}/index'
     fields:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: date }

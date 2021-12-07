@@ -6,8 +6,8 @@ description: Something that will be deleted later.
 ---
 Hiya! This is a test blog post.
 
-![](/content/uploads/gatsby-icon.png)
+![](../content/uploads/gatsby-icon.png)
 
 ![](http://placekitten.com/200/300)
 
-![](/content/uploads/waffle-icon-14.jpg)
+![](/uploads/waffle-icon-14.jpg)
