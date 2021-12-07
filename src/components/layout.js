@@ -16,7 +16,7 @@ class Layout extends React.Component {
         <h1
           style={{
             ...scale(1.5),
-            marginBottom: rhythm(1.5),
+            marginBottom: rhythm(.1),
             marginTop: 0,
           }}
         >
@@ -46,7 +46,7 @@ class Layout extends React.Component {
               textDecoration: `none`,
               color: `inherit`,
             }}
-            to={`/blog/`}
+            to={`/`}
           >
             {title}
           </Link>
@@ -67,9 +67,11 @@ class Layout extends React.Component {
           <main>{children}</main>
         </div>
         <Footer>
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}. Over-engineered with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a href="https://www.gatsbyjs.org" target="__blank" rel="noopener noreferrer">Gatsby</a>
+          {` `}
+          for knowledge and good vibes.
         </Footer>
       </Wrapper>
     )
@@ -78,6 +80,9 @@ class Layout extends React.Component {
 
 const Wrapper = styled.div`
   min-height: 100vh;
+  ol, ul {
+    list-style-position: inside;
+  }
 `
 
 const Footer = styled.footer`
