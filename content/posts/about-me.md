@@ -1,5 +1,5 @@
 ---
-path: whoami
+path: about-me
 date: 2021-12-07T03:19:08.527Z
 title: About Me
 description: Who I am and what I do.
