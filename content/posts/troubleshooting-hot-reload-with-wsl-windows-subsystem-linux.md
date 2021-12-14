@@ -25,7 +25,7 @@ The output should look similar to below, which indicates that WSL exists on your
 
 `PS C:\Users\mkron> wsl -l -v`
 
-`  NAME      STATE           VERSION`
+`NAME      STATE           VERSION`
 
 `* Ubuntu    Running         2`
 
@@ -53,7 +53,6 @@ Or
 
 * `cd /home/$YOUR_USERNAME`
 
-\
 Within this directory, you can create your project and hot reload should work properly.
 
 ### Further Troubleshooting Steps
