@@ -1,6 +1,6 @@
 ---
 path: update-favicon
-date: 2021-12-20T00:16:47.314Z
+date: 2021-12-19T00:16:47.314Z
 title: Three Ways to Update the Favicon for a Gatsby App
 description: The options for configuring a favicon in Gatsby and the order of
   priority for each.
