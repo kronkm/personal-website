@@ -12,8 +12,6 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-react-helmet`,
     {
       resolve: "gatsby-plugin-local-search",
       options: {
@@ -69,6 +67,7 @@ module.exports = {
       icon: `src/images/sauropod.png`,
       },
     },
+    `gatsby-plugin-offline`,
     `gatsby-plugin-feed-mdx`,
     `gatsby-plugin-root-import`,
     {
@@ -112,18 +111,12 @@ module.exports = {
         plugins: [`gatsby-remark-images`],
       },
     },
-    /*{
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        // edit below
-        // trackingId: `ADD YOUR TRACKING ID HERE`,
-      },
-    },*/
     {
       resolve: `gatsby-plugin-typography`,
       options: {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    `gatsby-plugin-react-helmet`,
   ],
 }
